@@ -1,9 +1,9 @@
 #include <iostream>
-//#include "Fila.hpp"
+#include "Fila.hpp"
 #include "FilaD.hpp"
 #include "TRESa.hpp"
-/*#include "TRESb.hpp"
-#include "TRESc.hpp"*/
+#include "TRESb.hpp"
+#include "TRESc.hpp"
 using namespace std;
 
 int
@@ -13,8 +13,8 @@ main ()
   c = ' ';
 
   TRESa ta;
-  //TRESb tb;
-  //TRESc tc;
+  TRESb tb;
+  TRESc tc;
 
   while (c != 's')
     {
@@ -36,7 +36,7 @@ main ()
 	    break;
 	  }
 
-	  /*case 'b':
+	  case 'b':
 	     {
 	     tb.makeb();
 	     tb.Fazindex();
@@ -48,7 +48,7 @@ main ()
 	     tc.FazindexBubble ();
 	     break;
 	     }
-	   */
+	   
 	}
     }
 
